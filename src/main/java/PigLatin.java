@@ -40,7 +40,7 @@ public class PigLatin {
         //postcondition: returns the pig latin equivalent of sWord
         // more code should go here
 	    if(findFirstVowel(sWord) == -1) {
-		    return sWord + "ay";
+		    return sWord + "way";
 	    }
 	    else {
 		return sWord.substring(findFirstVowel(sWord)) + sWord.substring(0,findFirstVowel(sWord)) + "ay";
